@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from pandas import ExcelWriter
 df = pd.read_csv("Bank_Ifsc_mapping.csv")
-
+//data frame 
 bankname = df['Bank Name']
 ifsc = "UTBI0NTRD65"
 ifsc = df['IFSC Code']
